@@ -243,22 +243,23 @@ export const publications = [
 ];
 
 export const contactInfo = {
-  address: "Gedung Radiodiagnostik Lt. 3, RSUP Dr. Sardjito, Jl. Kesehatan No. 1, Yogyakarta 55281",
-  phone: "+62 274 587333",
-  email: "info@labfismed.ac.id",
-  fax: "+62 274 583745",
+  address: "Laboratorium Fisika Medik, Departemen Fisika, Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA), Universitas Hasanuddin, Jl. Perintis Kemerdekaan KM 10, Tamalanrea, Makassar, Sulawesi Selatan 90245",
+  phone: "+62 411 586 025",
+  email: "fisika@unhas.ac.id",
+  fax: "+62 411 586 025",
+  website: "https://fmipa.unhas.ac.id/fisika",
   operatingHours: {
-    weekdays: "08:00 - 16:00 WIB",
-    saturday: "08:00 - 12:00 WIB",
+    weekdays: "08:00 - 16:00 WITA",
+    saturday: "08:00 - 12:00 WITA",
     sunday: "Tutup"
   },
   socialMedia: {
-    twitter: "@labfismed",
-    instagram: "@labfismed",
-    linkedin: "lab-fisika-medik"
+    twitter: "@unhas_official",
+    instagram: "@unhas_official",
+    linkedin: "universitas-hasanuddin"
   },
   coordinates: {
-    lat: -7.768732,
-    lng: 110.373523
+    lat: -5.135167,
+    lng: 119.489167
   }
 };
