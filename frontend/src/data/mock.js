@@ -11,13 +11,13 @@ export const labInfo = {
 export const staffMembers = [
   {
     id: 1,
-    name: "Dr. Budi Santoso, M.Si",
+    name: "Prof. Dr. Syamsir D., MS",
     role: "Kepala Laboratorium",
-    specialization: "Radioterapi & Dosimetri",
+    specialization: "Fisika Medik & Radioterapi",
     image: "https://images.unsplash.com/photo-1758573466942-fbc45731e6eb",
-    bio: "Pakar fisika medik dengan pengalaman 15 tahun dalam radioterapi dan dosimetri radiasi. Berfokus pada optimasi treatment planning dan quality assurance.",
+    bio: "Profesor fisika medik dengan pengalaman lebih dari 20 tahun dalam bidang radioterapi, dosimetri radiasi, dan proteksi radiasi. Memimpin berbagai penelitian inovatif dalam optimasi teknik pengobatan radiasi untuk kanker.",
     education: "Ph.D. Medical Physics - Stanford University",
-    publications: 45,
+    publications: 65,
     status: "available"
   },
   {
