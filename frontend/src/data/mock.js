@@ -2,10 +2,13 @@
 
 export const labInfo = {
   name: "Laboratorium Fisika Medik",
+  institution: "Universitas Hasanuddin",
+  faculty: "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)",
+  department: "Departemen Fisika",
   tagline: "Advancing Healthcare Through Medical Physics Excellence",
-  description: "Pusat penelitian dan pengembangan teknologi fisika medik terdepan yang berfokus pada inovasi dalam radioterapi, pencitraan medis, dan dosimetri radiasi untuk meningkatkan kualitas layanan kesehatan.",
-  established: "2010",
-  certifications: ["ISO 9001:2015", "Akreditasi KEMENKES", "IAEA Collaboration"]
+  description: "Pusat penelitian dan pengembangan teknologi fisika medik di Universitas Hasanuddin yang berfokus pada inovasi dalam radioterapi, pencitraan medis, dosimetri radiasi, dan proteksi radiasi untuk meningkatkan kualitas layanan kesehatan di Indonesia Timur.",
+  established: "2005",
+  certifications: ["Akreditasi BAN-PT", "Terakreditasi Unggul", "Kerjasama BATAN"]
 };
 
 export const staffMembers = [
