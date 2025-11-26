@@ -14,24 +14,28 @@ export const labInfo = {
 export const staffMembers = [
   {
     id: 1,
-    name: "Prof. Dr. Syamsir D., MS",
+    name: "Prof. Dr. Syamsir Dewang, M.Eng.Sc.",
     role: "Kepala Laboratorium",
-    specialization: "Fisika Medik & Radioterapi",
-    image: "https://ui-avatars.com/api/?name=Syamsir+D&size=400&background=06b6d4&color=ffffff&bold=true",
-    bio: "Profesor fisika medik dengan pengalaman lebih dari 20 tahun dalam bidang radioterapi, dosimetri radiasi, dan proteksi radiasi. Memimpin berbagai penelitian inovatif dalam optimasi teknik pengobatan radiasi untuk kanker.",
-    education: "Ph.D. Medical Physics",
+    specialization: "Optoelectronics & Fisika Medik",
+    image: "https://ui-avatars.com/api/?name=Syamsir+Dewang&size=400&background=06b6d4&color=ffffff&bold=true",
+    bio: "Profesor dengan keahlian dalam optoelectronics dan fisika medik. Memimpin berbagai penelitian inovatif dalam bidang instrumentasi medis dan teknologi optoelektronika untuk aplikasi kesehatan.",
+    education: "Doktor Optoelectronics - Universitas Indonesia, M.Si. Optoelectron - Universitas Indonesia, Sarjana - Universitas Hasanuddin",
+    email: "dewang@fmipa.unhas.ac.id",
+    address: "Jl. Sunu Komp. Unhas Blok KX. 13",
     publications: 65,
     status: "available"
   },
   {
     id: 2,
-    name: "Dr. Sri Dewi Astuty, S.Si., M.Si",
+    name: "Dr. Sri Dewi Astuty Ilyas, S.Si., M.Si.",
     role: "Dosen & Peneliti",
-    specialization: "Fisika Medik & Dosimetri",
+    specialization: "Fisika Medik & Biofisika",
     image: "https://ui-avatars.com/api/?name=Sri+Dewi+Astuty&size=400&background=14b8a6&color=ffffff&bold=true",
-    bio: "Ahli dalam bidang fisika medik dan dosimetri radiasi dengan fokus pada pengembangan metode pengukuran dosis radiasi yang akurat untuk aplikasi medis dan industri.",
-    education: "S.Si., M.Si. - Universitas Hasanuddin",
-    publications: 28,
+    bio: "Ahli dalam bidang fisika medik dan biofisika dengan fokus pada pengembangan metode pengukuran dosis radiasi dan aplikasi fisika dalam sistem biologis untuk keperluan medis.",
+    education: "Dr. Fisika Medik dan Biofisika - Universitas Airlangga, M.Si. Fisika Instrumentasi dan Elektronika - ITB",
+    email: "dewiastuti@fmipa.unhas.ac.id",
+    address: "BTN Minasa Upa Blok G2/11",
+    publications: 35,
     status: "available"
   },
   {
