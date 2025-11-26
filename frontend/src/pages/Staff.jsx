@@ -218,10 +218,39 @@ export const Staff = () => {
                   <p className="text-slate-300">{selectedStaff.education}</p>
                 </div>
 
-                {/* Contact */}
+                {/* Contact Information */}
+                {(selectedStaff.email || selectedStaff.address) && (
+                  <div className="p-6 bg-gradient-to-br from-slate-800/80 to-slate-900/80 rounded-xl border border-slate-700/50 space-y-3">
+                    <h4 className="text-sm uppercase tracking-wider text-cyan-400 mb-3 flex items-center space-x-2">
+                      <Mail className="w-4 h-4" />
+                      <span>Informasi Kontak</span>
+                    </h4>
+                    {selectedStaff.email && (
+                      <div className="flex items-start space-x-3">
+                        <Mail className="w-4 h-4 text-cyan-400 mt-0.5 flex-shrink-0" />
+                        <a href={`mailto:${selectedStaff.email}`} className="text-slate-300 hover:text-cyan-400 transition-colors duration-200">
+                          {selectedStaff.email}
+                        </a>
+                      </div>
+                    )}
+                    {selectedStaff.address && (
+                      <div className="flex items-start space-x-3">
+                        <svg className="w-4 h-4 text-cyan-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <p className="text-slate-300">
+                          {selectedStaff.address}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* Contact Button */}
                 <div className="flex items-center space-x-4">
                   <a
-                    href={`mailto:${selectedStaff.name.toLowerCase().replace(/\s+/g, '.')}@labfismed.ac.id`}
+                    href={`mailto:${selectedStaff.email || selectedStaff.name.toLowerCase().replace(/\s+/g, '.')}@fmipa.unhas.ac.id`}
                     className="flex-1 px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-400 hover:to-teal-400 text-white font-bold rounded-xl transition-all duration-300 shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 hover:scale-105 text-center"
                   >
                     <span className="flex items-center justify-center space-x-2">
